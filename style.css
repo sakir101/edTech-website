@@ -41,6 +41,11 @@
 .fa-empty{
     color: beige;
 }
+
+.acco-ques{
+    margin-left: 15%;
+    margin-right: 15%;
+}
 @media only screen and (max-width:668px) {
     .btn-head{
         display: none;
@@ -60,6 +65,11 @@
     .modal-dec{
         width: 100%;
     }
+
+    .acco-ques{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 
@@ -71,5 +81,10 @@
 
     .modal-dec{
         width: 100%;
+    }
+
+    .acco-ques{
+        margin-left: 0;
+        margin-right: 0;
     }
 }
