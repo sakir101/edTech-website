@@ -1,0 +1,31 @@
+
+.img-car{
+    
+   
+    object-fit: cover;
+}
+
+.car{
+    min-height: 90vh;
+}
+
+.carousel-caption{
+    left: 30%;
+    right: 30%;
+    padding-bottom: 13.25rem;
+}
+
+
+@media only screen and (max-width:668px) {
+    .btn-head{
+        display: none;
+    }
+
+    .carousel-caption{
+        left: 5%;
+        right: 5%;
+        padding-bottom: 13.25rem;
+    }
+}
+
+
