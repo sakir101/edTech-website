@@ -46,6 +46,14 @@
     margin-left: 15%;
     margin-right: 15%;
 }
+
+.fa-social{
+    color: white;
+    background-color: #242424;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 10px;
+}
 @media only screen and (max-width:668px) {
     .btn-head{
         display: none;
