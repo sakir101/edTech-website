@@ -1,105 +1,164 @@
+/* carousel design */
+.img-car {
 
-.img-car{
-    
-   
+
     object-fit: cover;
 }
 
-.car{
+.car {
     min-height: 90vh;
 }
 
-.carousel-caption{
+.carousel-caption {
     left: 30%;
     right: 30%;
     padding-bottom: 13.25rem;
 }
 
 /* Course design starts  */
-.course-title{
+.course-title {
     margin-left: 35%;
     margin-right: 35%;
 }
 
-.modal-dec{
+.img-card {
+    width: 100%
+}
+
+/* modal design */
+.modal-dec {
     width: 50%;
 }
 
-.bg-color{
+.modal-section {
+    padding: 100px 70px;
+}
+
+.bg-color {
     background-color: #289BDE;
 }
 
-.btn-color{
+.btn-color {
     background-color: white;
     color: blue;
 }
 
-.fa-fill{
+/* icon design */
+.fa-fill {
     color: yellow;
 }
 
-.fa-empty{
+.fa-empty {
     color: beige;
 }
 
-.acco-ques{
+/* accordian design */
+.acco-ques {
     margin-left: 15%;
     margin-right: 15%;
 }
 
-.fa-social{
+/* footer design */
+.fa-social {
     color: white;
     background-color: #242424;
     padding: 5px;
     border-radius: 50%;
     margin: 10px;
 }
+.card-pos{
+    position: relative;
+}
+.arrow{
+    
+    position: absolute;
+    bottom: 90px;
+    left: 98.5%;
+    z-index: 3;
+    background-color: #289BDE;
+    padding: 15px;
+    border-radius: 100%;
+
+    
+}
+
+.card-1{
+    position: relative;
+}
+
+.arrow-1{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: -18px;
+    background-color: #E5F6FF;
+    padding: 15px;
+    border-radius: 100%;
+}
 @media only screen and (max-width:668px) {
-    .btn-head{
+   
+    .btn-head {
         display: none;
     }
 
-    .carousel-caption{
+    .carousel-caption {
         left: 5%;
         right: 5%;
-        padding-bottom: 13.25rem;
+        padding-bottom: 7.25rem;
     }
 
-    .course-title{
+    .course-title {
         margin-left: 0;
         margin-right: 0;
     }
 
-    .modal-dec{
+    .arrow{
+        display: none;
+    }
+
+    .arrow-1{
+        display: none;
+    }
+
+    .modal-dec {
         width: 100%;
     }
 
-    .acco-ques{
+    .acco-ques {
         margin-left: 0;
         margin-right: 0;
     }
 
-    .company-section{
-        display: none;
-    }
+    
 }
 
 
-@media only screen and (min-width:669px) and (max-width:850px){
-    .course-title{
+@media only screen and (min-width:669px) and (max-width:850px) {
+    .carousel-caption {
+        left: 10%;
+        right: 10%;
+        padding-bottom: 7.25rem;
+    }
+    .course-title {
         margin-left: 20%;
         margin-right: 20%;
     }
 
-    .modal-dec{
+    .modal-dec {
         width: 100%;
     }
 
-    .acco-ques{
+    .acco-ques {
         margin-left: 0;
         margin-right: 0;
     }
-    .company-section{
+
+    .arrow{
         display: none;
     }
+    
+    .arrow-1{
+        display: none;
+    }
+    
 }
