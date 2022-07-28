@@ -21,6 +21,18 @@
     margin-right: 35%;
 }
 
+.modal-dec{
+    width: 50%;
+}
+
+.bg-color{
+    background-color: #289BDE;
+}
+
+.btn-color{
+    background-color: white;
+    color: blue;
+}
 @media only screen and (max-width:668px) {
     .btn-head{
         display: none;
@@ -36,6 +48,10 @@
         margin-left: 0;
         margin-right: 0;
     }
+
+    .modal-dec{
+        width: 100%;
+    }
 }
 
 
@@ -43,5 +59,9 @@
     .course-title{
         margin-left: 20%;
         margin-right: 20%;
+    }
+
+    .modal-dec{
+        width: 100%;
     }
 }
