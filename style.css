@@ -33,6 +33,14 @@
     background-color: white;
     color: blue;
 }
+
+.fa-fill{
+    color: yellow;
+}
+
+.fa-empty{
+    color: beige;
+}
 @media only screen and (max-width:668px) {
     .btn-head{
         display: none;
